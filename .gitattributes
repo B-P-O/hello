@@ -1,0 +1,2 @@
+file-pattern filter=lfs diff=lfs merge=lfs -text
+my-profile filter=lfs diff=lfs merge=lfs -text
