@@ -1,0 +1,45 @@
+nav {
+  background: rgba(0, 0, 0, 0.3);
+  width: max-content;
+  display: block;
+  padding: 1rem 4rem;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+  bottom: 0rem;
+  display: flex;
+  gap: 2rem;
+  border-radius: 3rem 3rem 0rem 0rem;
+  -webkit-border-radius: 3rem 3rem 0rem 0rem;
+  -moz-border-radius: 3rem 3rem 0rem 0rem;
+  -ms-border-radius: 3rem 3rem 0rem 0rem;
+  -o-border-radius: 3rem 3rem 0rem 0rem;
+  backdrop-filter: blur(15px);
+}
+
+nav a {
+  background: transparent;
+  padding: 1rem;
+  display: flex;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: var(--color-light);
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+nav a.active {
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
